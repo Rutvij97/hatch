@@ -130,6 +130,8 @@ This is the directory that is used to persist data. By default it is set to one 
 
 You can select a custom path to the directory using the `--data-dir` [root option](../cli/reference.md#hatch) or by setting the `HATCH_DATA_DIR` environment variable.
 
+The [`cache dir --data`](../cli/reference.md#hatch-cache-dir) command shows the directory in use, and the [`cache show`](../cli/reference.md#hatch-cache-show) command shows how much space its environments and Python distributions occupy.
+
 ### Cache
 
 ```toml tab="config.toml"
@@ -146,6 +148,8 @@ This is the directory that is used to cache data. By default it is set to one of
 | Unix | `$XDG_CACHE_HOME/hatch` (the [XDG_CACHE_HOME](https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html#variables) environment variable default is `~/.cache`) |
 
 You can select a custom path to the directory using the `--cache-dir` [root option](../cli/reference.md#hatch) or by setting the `HATCH_CACHE_DIR` environment variable.
+
+The [`cache dir`](../cli/reference.md#hatch-cache-dir) command shows the directory in use.
 
 ### Environments
 

@@ -180,3 +180,5 @@ $ hatch env show --ascii
 ## Removal
 
 You can remove a single environment or environment matrix by using the [`env remove`](cli/reference.md#hatch-env-remove) command or all of a project's environments by using the [`env prune`](cli/reference.md#hatch-env-prune) command.
+
+Environments of every project, including those created for [running scripts](cli/reference.md#hatch-run) and the internal environments used by commands such as `test` and `fmt`, are stored in the [data directory](config/hatch.md#data). Use the [`cache show`](cli/reference.md#hatch-cache-show) command to see how much space they use and the [`cache clean`](cli/reference.md#hatch-cache-clean) command to remove them.

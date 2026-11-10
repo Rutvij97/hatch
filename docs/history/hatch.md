@@ -8,6 +8,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## Unreleased
 
+***Added:***
+
+- Add the `cache` command group: `cache dir` shows the cache or data directory, `cache show` lists cached environments and Python distributions with their size on disk, and `cache clean` removes the environments of all projects, the environments created for scripts, and the internal environments
+
 ## [1.18.2](https://github.com/pypa/hatch/releases/tag/hatch-v1.18.2) - 2026-10-27 ## {: #hatch-v1.18.2 }
 
 ***Changed:***
